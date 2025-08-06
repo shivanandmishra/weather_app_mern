@@ -1,0 +1,109 @@
+/* .app {
+  text-align: center;
+  padding: 1rem;
+  padding-top: .5rem;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 0.5rem;
+  width: 200px;
+}
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+}
+.weather-card {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 8px;
+} */
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff84 100%);
+  /* background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.137) , rgba(242, 245, 249, 0.205)), url('https://www.freepik.com/free-photo/landscape-with-lake-sunset_12686619.htm#fromView=search&page=1&position=34&uuid=34200109-be13-4760-8a9d-6e1ec1301aa3&query=natural+images'); */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  width: 65%;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px #007bff88;
+}
+
+button {
+  margin-left: 0.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-card {
+  margin-top: 1rem;
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.weather-card p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #333;
+}
